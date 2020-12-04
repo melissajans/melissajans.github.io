@@ -1,0 +1,47 @@
+/* LOGO NAVBAR 50px SOLID */
+
+#logo{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid white;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#logohome{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid #343a40;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+
+#wave{
+    height: 50px;
+    width: 50px;
+    background-color: #343a40;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: 6px;
+}
+
+#air{
+    height: 25px;
+    width: 25px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 15px;
+    left: 30px;
+}
+

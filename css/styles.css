@@ -1,0 +1,275 @@
+.contactImg, .imgReispakket3-3, .imgReispakket3-2, .imgReispakket3-1, .imgReispakket2-3, .imgReispakket2-2, .imgReispakket2-1, .imgReispakket1-3, .imgReispakket1-2, .imgReispakket1-1 {
+  background-image: url("../img/Reispakket1_1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  width: 100%;
+  display: block;
+}
+
+body {
+  height: 100vh;
+}
+
+nav ul {
+  width: 100%;
+}
+nav ul a {
+  font-size: 19.2px;
+}
+
+#homeImg {
+  display: block;
+  position: fixed;
+  bottom: 0;
+  background-image: url("../img/HOME.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+}
+
+main #homeVideo {
+  display: none;
+}
+
+.logoOverlay {
+  position: absolute;
+  top: 40%;
+  left: 45%;
+}
+
+#logooutline {
+  height: 150px;
+  width: 150px;
+  background-color: none;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  border: 3.75px solid white;
+}
+#logooutline #waveoutline {
+  height: 150px;
+  width: 150px;
+  background-color: none;
+  border-radius: 50%;
+  position: absolute;
+  top: 30px;
+  left: 18px;
+  border: 3.75px solid white;
+}
+#logooutline #airoutline {
+  height: 75px;
+  width: 75px;
+  background-color: none;
+  border-radius: 50%;
+  position: absolute;
+  top: 45px;
+  left: 90px;
+  border: 3.75px solid white;
+}
+
+.icoonCirkel {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: none;
+  border: 3px solid #343a40;
+}
+.icoonCirkel i {
+  color: #343a40;
+}
+
+.lijn {
+  width: 20%;
+  border-bottom: 2px dotted #00ca00;
+  margin: auto;
+}
+
+.carousel-indicators > li {
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  margin: 0 10px;
+}
+
+.imgReispakket1-1 {
+  background-image: url("../img/Reispakket1_1.jpg");
+  background-position: top;
+}
+
+.imgReispakket1-2 {
+  background-image: url("../img/Reispakket1_2.jpg");
+}
+
+.imgReispakket1-3 {
+  background-image: url("../img/Reispakket1_3.jpg");
+}
+
+.imgReispakket2-1 {
+  background-image: url("../img/Reispakket2_1.jpg");
+}
+
+.imgReispakket2-2 {
+  background-image: url("../img/Reispakket2_2.jpg");
+  background-position: bottom;
+}
+
+.imgReispakket2-3 {
+  background-image: url("../img/Reispakket2_3.jpg");
+}
+
+.imgReispakket3-1 {
+  background-image: url("../img/Reispakket3_1.jpg");
+}
+
+.imgReispakket3-2 {
+  background-image: url("../img/Reispakket3_2.jpg");
+  background-position: bottom;
+}
+
+.imgReispakket3-3 {
+  background-image: url("../img/Reispakket3_3.jpg");
+}
+
+.container-fluid > .row .col > #team {
+  width: 100%;
+}
+
+#quote {
+  text-shadow: 1px 1px 5px gray;
+  width: 100%;
+  position: absolute;
+  top: 40px;
+}
+#quote span {
+  display: block;
+}
+
+.icoonKader {
+  border: 2px solid #343a40;
+}
+
+.btn {
+  background-color: #00ca00;
+}
+.btn:hover {
+  background-color: #343a40;
+  color: white;
+}
+
+.card > img {
+  width: 100%;
+}
+
+.overlayIcon {
+  left: 0;
+  top: 20px;
+  background-color: white;
+  width: 50px;
+  height: 50px;
+}
+
+.socialbadge {
+  background-color: white;
+  color: red;
+  position: fixed;
+  right: 0;
+  bottom: 50%;
+  box-shadow: 1px 1px 5px gray;
+}
+.socialbadge a {
+  text-decoration: none;
+}
+
+.fa-facebook {
+  color: #1877f2;
+}
+.fa-facebook:hover {
+  color: #343a40;
+}
+
+.fa-twitter {
+  color: #1da1f2;
+}
+.fa-twitter:hover {
+  color: #343a40;
+}
+
+.fa-youtube {
+  color: #ff0000;
+}
+.fa-youtube:hover {
+  color: #343a40;
+}
+
+.fa-instagram {
+  color: #c32aa3;
+}
+.fa-instagram:hover {
+  color: #343a40;
+}
+
+.contactImg {
+  background-image: url("../img/CONTACT.jpg");
+  background-position: center;
+  height: 200px;
+}
+
+footer {
+  width: 100%;
+  bottom: 0;
+}
+
+@media (min-width: 992px) {
+  .contactImg {
+    height: 500px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  main #homeVideo {
+    display: block;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+
+  #logooutline {
+    height: 300px;
+    width: 300px;
+    background-color: none;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    border: 7.5px solid white;
+  }
+  #logooutline #waveoutline {
+    height: 300px;
+    width: 300px;
+    background-color: none;
+    border-radius: 50%;
+    position: absolute;
+    top: 60px;
+    left: 36px;
+    border: 7.5px solid white;
+  }
+  #logooutline #airoutline {
+    height: 150px;
+    width: 150px;
+    background-color: none;
+    border-radius: 50%;
+    position: absolute;
+    top: 90px;
+    left: 180px;
+    border: 7.5px solid white;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
