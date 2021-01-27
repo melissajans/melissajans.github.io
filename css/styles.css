@@ -32,35 +32,18 @@ img {
 .navbar-toggler,
 .navbar-light {
     border: none;
-    position: relative
 }
 
 button:focus {
     outline: 0;
 }
 
-#menu-toggler-1 {
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-#menu-toggler-2 {
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-button:focus #menu-toggler-1 {
-    transform: rotate(45deg);
-}
-
-button:focus #menu-toggler-2 {
-    transform: rotate(-45deg);
-}
-
 .navbar-brand {
     font-size: 2em;
+}
+
+.nav-link {
+    display: inline-block;
 }
 
 #about {
